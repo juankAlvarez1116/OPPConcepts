@@ -3,7 +3,7 @@
 try
 {
     var date1 = new Date();
-    var date2 = new Date(2026, 2, 29);
+    var date2 = new Date(250, 10, 30);
     var date3 = new Date(2000, 2, 29);
 
     Console.WriteLine(date1);
