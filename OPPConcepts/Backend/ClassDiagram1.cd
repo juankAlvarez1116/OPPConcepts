@@ -40,5 +40,21 @@
       <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Backend.HourlyEmployee">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="Backend.Employee" FixedFromPoint="true">
+      <Path>
+        <Point X="7.75" Y="2.5" />
+        <Point X="8.125" Y="2.5" />
+        <Point X="8.125" Y="4.125" />
+        <Point X="10.75" Y="4.125" />
+        <Point X="10.75" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAEAAgAAAAAAABEAAAIAAAAAAAAAAE=</HashCode>
+      <FileName>HourlyEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

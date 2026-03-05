@@ -29,7 +29,7 @@ public abstract class Employee
     public override string ToString()
     {
         return $"{Id}\t{FirstName} {LastName}\n\t" +           // \t = tabulador \n = baja renglón
-               $"Value to pay: {GetValueToPay(),20:C2}";
+               $"Value to pay.....: {GetValueToPay(),20:C2}";
     }
     public abstract decimal GetValueToPay();
 }
