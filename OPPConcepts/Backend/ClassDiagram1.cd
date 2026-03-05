@@ -41,14 +41,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Backend.HourlyEmployee">
-    <Position X="10" Y="4.5" Width="1.5" />
+    <Position X="10" Y="4.5" Width="2" />
     <InheritanceLine Type="Backend.Employee" FixedFromPoint="true">
       <Path>
         <Point X="7.75" Y="2.5" />
         <Point X="8.125" Y="2.5" />
         <Point X="8.125" Y="4.125" />
-        <Point X="10.75" Y="4.125" />
-        <Point X="10.75" Y="4.5" />
+        <Point X="11" Y="4.125" />
+        <Point X="11" Y="4.5" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -57,10 +57,23 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Backend.CommisionEmployee">
-    <Position X="2" Y="1" Width="1.5" />
+    <Position X="2" Y="1" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAIAAAAAAEAAAABAAAAIAQAAAIAAgAAAAAAAA=</HashCode>
       <FileName>CommisionEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.BaseCommisionEmployee">
+    <Position X="1.75" Y="5" Width="2.25" />
+    <InheritanceLine Type="Backend.CommisionEmployee" FixedFromPoint="true">
+      <Path>
+        <Point X="2.875" Y="4.29" />
+        <Point X="2.875" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
