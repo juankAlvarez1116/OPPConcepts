@@ -1,10 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Backend.Date">
-    <Position X="7.25" Y="0.5" Width="1.5" />
+    <Position X="6" Y="4.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAJAAAAAAEAAEAAAMAAAAAAACEMAAAAAAAAAA=</HashCode>
-      <FileName>Class1.cs</FileName>
+      <FileName>Date.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Employee">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="BornDate" Type="Backend.Date" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="3.017" />
+        <Point X="6.5" Y="4.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="HireDate" Type="Backend.Date" FixedFromPoint="true">
+      <Path>
+        <Point X="7.312" Y="3.017" />
+        <Point X="7.312" Y="4.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.921" Y="0.154" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABACAEAAAAAAAAAEEAAAAAAAACAAAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BornDate" />
+      <Property Name="HireDate" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Backend.SalaryEmployee">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
