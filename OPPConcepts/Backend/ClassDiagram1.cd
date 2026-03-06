@@ -32,6 +32,7 @@
       <Property Name="BornDate" />
       <Property Name="HireDate" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Backend.SalaryEmployee">
     <Position X="10.5" Y="0.75" Width="1.5" />
@@ -76,5 +77,23 @@
       <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Backend.Invoice">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACBAAAAAAgAAAFAAAAAAAAAAAABAAJAAAggAAAAAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Date" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Backend.IPay">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>IPay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

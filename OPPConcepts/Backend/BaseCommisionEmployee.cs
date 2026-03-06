@@ -23,16 +23,16 @@ public class BaseCommisionEmployee : CommisionEmployee
 
     // Methods
 
-    public override decimal GetValueToPay() => (decimal)CommisionPercentaje * Sales + Salary;
+    public override decimal GetValueToPay() => base.GetValueToPay() + Salary;
 
     public override string ToString() => base.ToString() + $"\n\t" +
-        $"Salary...........: {Salary,20:C2}";
+        $"Salary base......: {Salary,20:C2}";
 
     private decimal ValidateSalary(decimal salary)
     {
-        if (salary < 0)
+        if (salary < 500000)
         {
-            throw new ArgumentOutOfRangeException(nameof(salary), "Salary must be greater than or equal to 0");
+            throw new ArgumentOutOfRangeException(nameof(salary), "Salary base must be greater than or equal to $500.000.");
         }
         return salary;
     }
